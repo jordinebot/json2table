@@ -1,9 +1,12 @@
 <?php 
 
 	$json11_url = "https://graph.facebook.com/10151021544704634/comments?value=1&redirect=1&limit=1000";
+	$json12_url = "https://graph.facebook.com/10151076238995519/comments?value=1&redirect=1&limit=1000";
+	$json13_url = "https://graph.facebook.com/10150956342733212/comments?value=1&redirect=1&limit=1000";
+
 
 	// Initializing curl
-	$ch = curl_init( $json11_url );
+	$ch = curl_init( $json13_url );
 	 
 	// Configuring curl options
 	$options = array(
@@ -31,11 +34,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Documento sin título</title>
+<title>JSON 2 Table</title>
 </head>
 
 <body>
-<h1>Dia 11</h1>
 <table>
 <tr>
 	<th>Nom</th>
