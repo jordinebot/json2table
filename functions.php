@@ -1,11 +1,11 @@
 <?php
 
-    /**
-     * Get a remote JSON and return it
-     *
+	/**
+	 * Get a remote JSON and return it
+	 *
 	 * @param String with URL
-     * @return JSON
-     */
+	 * @return JSON
+	 */
 	function get_json( $url ) {
 		$ch = curl_init( $url );
 		$options = array(
@@ -17,12 +17,12 @@
 		return $result;	
 	}
 
-    /**
-     * Get a remote JSON and return it as an associative array
-     *
+	/**
+	 * Get a remote JSON and return it as an associative array
+	 *
 	 * @param String with URL
-     * @return Associative array
-     */	
+	 * @return Associative array
+	 */	
 	 function get_json_array( $url ) {
 		$ch = curl_init( $url );
 		$options = array(
