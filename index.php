@@ -4,27 +4,9 @@
 	$json12_url = "https://graph.facebook.com/10151076238995519/comments?value=1&redirect=1&limit=1000";
 	$json13_url = "https://graph.facebook.com/10150956342733212/comments?value=1&redirect=1&limit=1000";
 
-
-	// Initializing curl
-	$ch = curl_init( $json13_url );
-	 
-	// Configuring curl options
-	$options = array(
-	CURLOPT_RETURNTRANSFER => true,
-	CURLOPT_HTTPHEADER => array('Content-type: application/json') ,
-	);
-	 
-	// Setting curl options
-	curl_setopt_array( $ch, $options );
-	 
-	// Getting results
-	$result =  curl_exec($ch); // Getting jSON result string
+	require_once('functions.php');
 	
-	// Converting JSON to Array
-	$json_array = json_decode($result, true);
-
-
-
+	$json_array = get_json_array($json13_url);
 ?>
 
 
