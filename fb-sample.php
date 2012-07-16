@@ -1,5 +1,7 @@
 <?php 
 
+	/* https://graph.facebook.com/comments/?ids={YOUR_URL} */
+
 	$json11_url = "https://graph.facebook.com/10151021544704634/comments?value=1&redirect=1&limit=1000";
 	$json12_url = "https://graph.facebook.com/10151076238995519/comments?value=1&redirect=1&limit=1000";
 	$json13_url = "https://graph.facebook.com/10150956342733212/comments?value=1&redirect=1&limit=1000";
