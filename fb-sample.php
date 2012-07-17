@@ -24,7 +24,7 @@
 <body>
 <table>
 <tr>
-	<th>Nom</th>
+    <th>Nom</th>
     <th>ID</th>
     <th>Missatge</th>
     <th>Data</th>
