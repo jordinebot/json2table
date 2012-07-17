@@ -1,5 +1,4 @@
 <?php
-
 	/**
 	 * Get a remote JSON and return it
 	 *
@@ -34,10 +33,4 @@
 		$data = json_decode($result, true);
 		return $data;	
 	}
-	
-	
-	
-
-
-
 ?>
