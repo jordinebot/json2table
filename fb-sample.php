@@ -5,14 +5,13 @@
 	$json11_url = "https://graph.facebook.com/10151021544704634/comments?value=1&redirect=1&limit=1000";
 	$json12_url = "https://graph.facebook.com/10151076238995519/comments?value=1&redirect=1&limit=1000";
 	$json13_url = "https://graph.facebook.com/10150956342733212/comments?value=1&redirect=1&limit=1000";
+	$json16_url = "https://graph.facebook.com/10151086086507718/comments?value=1&redirect=1&limit=1000";
 
 	require_once('functions.php');
 	
-	$json_array = get_json_array($json13_url);
+	$json_array = get_json_array($json16_url);
 	
 ?>
-
-
 
 
 <!doctype html>
